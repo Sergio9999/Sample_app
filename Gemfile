@@ -9,8 +9,8 @@ group :development, :test do
   gem 'rspec-rails', '3.3.2'
   gem 'guard-rspec', '4.6.0'
   gem 'spork-rails', '4.0.0'
-  gem 'guard-spork', '1.5.0'
-  gem 'childprocess', '0.5.8'
+  gem 'guard-spork' 
+  gem 'childprocess', '0.3.6'
 end
   # OS X: раскомментируйте эти строки.
   # gem 'growl', '1.0.3'
