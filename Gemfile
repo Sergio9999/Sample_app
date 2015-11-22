@@ -3,10 +3,12 @@ ruby '2.0.0'
 #ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails', '4.0.2'
+gem 'bootstrap-sass', '2.3.2.0'
+
 
 group :development, :test do
   gem 'sqlite3'
-  gem 'rspec-rails', '3.3.2'
+  gem 'rspec-rails', '~> 3.0'
   gem 'guard-rspec', '4.6.0'
   gem 'spork-rails', '4.0.0'
   gem 'guard-spork' 
@@ -27,7 +29,7 @@ group :test do
   gem 'capybara', '2.2.0'
 end
 
-gem 'sass-rails', '4.0.1'
+gem 'sass-rails'
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.1'
 gem 'jquery-rails', '3.0.4'
