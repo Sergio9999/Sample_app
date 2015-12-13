@@ -14,6 +14,7 @@ group :development, :test do
   gem 'spork-rails', '4.0.0'
   gem 'guard-spork' 
   gem 'childprocess', '0.3.6'
+  gem 'factory_girl_rails', '4.2.1'
 end
   # OS X: раскомментируйте эти строки.
   # gem 'growl', '1.0.3'
